@@ -1,0 +1,11 @@
+import { useNavigate } from "react-router";
+import Boton from "../../../componentes/boton";
+export default function IndiceActores() {
+ const navigate = useNavigate();
+ return (
+ <>
+ <h3>Actores</h3>
+ <Boton onClick={() => navigate('/actores/crear')}>Crear Actor</Boton>
+ </>
+ )
+}

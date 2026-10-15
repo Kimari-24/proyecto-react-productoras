@@ -1,0 +1,24 @@
+# Dependencias (se reinstalan con npm install)
+node_modules/
+
+# Resultado del build (se genera con npm run build)
+dist/
+dist-ssr/
+
+# Compilación de .NET (api)
+bin/
+obj/
+
+# Logs
+*.log
+
+# Archivos locales
+*.local
+.env
+.claude/
+
+# Editor y sistema
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
