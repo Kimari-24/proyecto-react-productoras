@@ -18,6 +18,7 @@ obj/
 .claude/
 
 # Editor y sistema
+.vscode/
 .vs/
 .idea/
 .DS_Store
